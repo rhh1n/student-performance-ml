@@ -1,0 +1,16 @@
+StudyHours,Attendance,InternalMarks,GPA,Result
+2,60,12,5.5,Fail
+3,65,14,6.0,Fail
+4,70,15,6.2,Fail
+5,75,17,6.8,Pass
+6,80,18,7.2,Pass
+7,85,19,7.5,Pass
+8,90,20,8.0,Pass
+1,50,10,5.0,Fail
+9,92,21,8.5,Pass
+2,55,11,5.3,Fail
+6,78,18,7.0,Pass
+3,68,14,6.1,Fail
+7,88,19,7.8,Pass
+4,72,16,6.5,Pass
+5,74,17,6.7,Pass
