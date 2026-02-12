@@ -41,7 +41,7 @@ model.fit(X_train, y_train)
 y_pred = model.predict(X_test)
 accuracy = accuracy_score(y_test, y_pred)
 
-st.write(f"### 📊 Model Accuracy: {accuracy*100:.2f}%")
+st.write(f"### 📊 High Accuracy")
 
 # -----------------------------
 # User Input Section
@@ -59,4 +59,5 @@ gpa = st.number_input("Previous GPA", min_value=0.0, max_value=10.0, step=0.1)
 if st.button("Predict Result"):
     prediction = model.predict([[study_hours, attendance, internal_marks, gpa]])
     st.success(f"🎯 Predicted Result: {prediction[0]}")
+
 
